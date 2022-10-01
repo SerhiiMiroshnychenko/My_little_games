@@ -9,8 +9,7 @@ def flipping():
         if not decision:
             print("\n", coin(["HEAD(орел)", "TAIL(решка)"]))
         elif decision == "b":
-            print("\nThe program is over.")
-            break
+            return print("\nThe program is over.")
         else:
             print(f'\nI remind you of ENTER or "b".\nNot "{decision}".\nTry again.')
 
